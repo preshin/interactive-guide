@@ -1,8 +1,8 @@
 {
   "name": "interactive-guide",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
-  "homepage": "http://preshin.github.io/interactive-guide",
+  "homepage": "https://preshin.github.io/interactive-guide",
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
     "@craco/craco": "^6.2.0",
