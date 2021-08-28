@@ -9,7 +9,7 @@ import ButtonOptions from "./ButtonOptions";
 function Home() {
   return (
     <AppContext.Consumer>
-      {({ goToNextPage, history, goToPrevPage, ...contextProps }) => {
+      {({ goToNextPage, history, goToPrevPage }) => {
         const { pageId, title, question, answers } =
           history[history.length - 1];
         return (
@@ -37,45 +37,23 @@ function Home() {
                       {title && (
                         <div>
                           {title.map((t) => (
-                            <ReactMarkdown
-                              className="text-base"
-                              key={`title-${t}`}
-                              children={t}
-                            />
+                            <div className="pb-2">
+                              <ReactMarkdown
+                                className="text-base"
+                                key={`title-${t}`}
+                                children={t}
+                              />
+                            </div>
                           ))}
                         </div>
                       )}
                       {question && (
-                        <p className="text-center text-sm p-5 rounded-lg border border-blue-500 text-blue-500">
+                        <p className="text-center text-sm p-5 rounded-lg border border-blue-500 text-blue-500 my-3.5">
                           {question}
                         </p>
                       )}
                     </Col>
                     <Col span={24} className="pt-3">
-                      {/* <Row gutter={16} className="text-center justify-center">
-                        {(answers ?? []).map(({ display, nextPage }) => (
-                          <Col
-                            className="gutter-row pb-6"
-                            xs={24}
-                            md={8}
-                            key={nextPage}
-                          >
-                            <Button
-                              size="large"
-                              className="bg-transparent rounded-lg border border-black h-14 w-full whitespace-normal"
-                              onClick={() =>
-                                goToNextPage({
-                                  nextPageId: nextPage,
-                                  currentPageId: pageId,
-                                  display,
-                                })
-                              }
-                            >
-                              {display}
-                            </Button>
-                          </Col>
-                        ))}
-                      </Row> */}
                       <ButtonOptions
                         buttonList={answers}
                         onClick={({ nextPageId, currentPageId, display }) =>
