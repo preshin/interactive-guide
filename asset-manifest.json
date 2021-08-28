@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/interactive-guide/static/css/main.44e070af.chunk.css",
+    "main.js": "/interactive-guide/static/js/main.30c5b913.chunk.js",
+    "main.js.map": "/interactive-guide/static/js/main.30c5b913.chunk.js.map",
+    "runtime-main.js": "/interactive-guide/static/js/runtime-main.3bbda224.js",
+    "runtime-main.js.map": "/interactive-guide/static/js/runtime-main.3bbda224.js.map",
+    "static/css/2.1d694c59.chunk.css": "/interactive-guide/static/css/2.1d694c59.chunk.css",
+    "static/js/2.fb8abe5e.chunk.js": "/interactive-guide/static/js/2.fb8abe5e.chunk.js",
+    "static/js/2.fb8abe5e.chunk.js.map": "/interactive-guide/static/js/2.fb8abe5e.chunk.js.map",
+    "static/js/3.cbc5760c.chunk.js": "/interactive-guide/static/js/3.cbc5760c.chunk.js",
+    "static/js/3.cbc5760c.chunk.js.map": "/interactive-guide/static/js/3.cbc5760c.chunk.js.map",
+    "static/js/4.ce0e9ffb.chunk.js": "/interactive-guide/static/js/4.ce0e9ffb.chunk.js",
+    "static/js/4.ce0e9ffb.chunk.js.map": "/interactive-guide/static/js/4.ce0e9ffb.chunk.js.map",
+    "index.html": "/interactive-guide/index.html",
+    "static/css/2.1d694c59.chunk.css.map": "/interactive-guide/static/css/2.1d694c59.chunk.css.map",
+    "static/css/main.44e070af.chunk.css.map": "/interactive-guide/static/css/main.44e070af.chunk.css.map",
+    "static/js/2.fb8abe5e.chunk.js.LICENSE.txt": "/interactive-guide/static/js/2.fb8abe5e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bbda224.js",
+    "static/css/2.1d694c59.chunk.css",
+    "static/js/2.fb8abe5e.chunk.js",
+    "static/css/main.44e070af.chunk.css",
+    "static/js/main.30c5b913.chunk.js"
+  ]
+}
